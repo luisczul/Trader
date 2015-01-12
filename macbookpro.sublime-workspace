@@ -1,0 +1,525 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dow",
+				"downDirection"
+			],
+			[
+				"pre",
+				"previous"
+			],
+			[
+				"av",
+				"average"
+			],
+			[
+				"ave",
+				"averageCounter"
+			],
+			[
+				"tri",
+				"triggered"
+			],
+			[
+				"stoc",
+				"stock"
+			],
+			[
+				"sto",
+				"stocks"
+			],
+			[
+				"prev",
+				"previousPrice"
+			],
+			[
+				"di",
+				"differences"
+			],
+			[
+				"succ",
+				"successMessage"
+			],
+			[
+				"ex",
+				"exerciseId"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"temp",
+				"templateWeight"
+			],
+			[
+				"templ",
+				"templateSets"
+			],
+			[
+				"cli",
+				"clientList"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"tem",
+				"templateSet"
+			],
+			[
+				"exer",
+				"exercise"
+			],
+			[
+				"not",
+				"notification"
+			],
+			[
+				"noti",
+				"notificationsNew"
+			],
+			[
+				"notifi",
+				"notification_preloader"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 314.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/diego/GitHub/Trader"
+	],
+	"file_history":
+	[
+		"/Users/diego/GitHub/Trader/laravel/app/views/dashboard.blade.php",
+		"/Users/diego/GitHub/Trader/laravel/app/libraries/Helper.php",
+		"/Users/diego/GitHub/Trader/laravel/app/routes.php",
+		"/Users/diego/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/diego/GitHub/Trader/laravel/app/views/widgets/stockStatus.blade.php",
+		"/Users/diego/GitHub/Trader/laravel/app/controllers/TraderController.php",
+		"/Users/diego/GitHub/Trader/laravel/app/views/layout/layout.blade.php",
+		"/Users/diego/GitHub/Trader/laravel/app/config/app.php",
+		"/Users/diego/GitHub/Trader/laravel/app/views/widgets/stockData.blade.php",
+		"/Users/diego/GitHub/Toupix/app/config/database.php",
+		"/Applications/MAMP/conf/php5.6.2/php.ini",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/ObjectivesController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/layouts/trainer.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/layouts/visitor.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/layouts/trainee.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/full/pictures.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/layouts/default.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/routes.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/ExercisesImagesController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/config/constants.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/ControlPanel/exercises.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/ControlPanel/manageExercises.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/ExercisesController.php",
+		"/Users/diego/GitHub/TrainerWorkout/fw/lightbox/scripts/jquery.lightbox.js",
+		"/Users/diego/GitHub/TrainerWorkout/app/config/auth.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/full/friends.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/FriendsController.php",
+		"/Users/diego/GitHub/TrainerWorkout/js/global.js",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/WeightsController.php",
+		"/Users/diego/Library/Caches/Cleanup At Startup/Transmit/A48BFF49-DDA8-4F39-8782-694A8B3F3C9E/custom-style.css",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/add/weight.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainee/index.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/index.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/AvailabilitiesController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/UsersController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/add/measurements.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/libraries/Helper.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/MeasurementsController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainee/search.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainee/trainee.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainee/workouts.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainee/editProfile.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainee/friends.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/measurements.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/WorkoutsController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/weight.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/createWorkout.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/add/reminders.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/add/tasks.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/client.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/TasksController.php",
+		"/Users/diego/GitHub/TrainerWorkout/css/innerStyles.css",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/AppointmentsController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/CalendarController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/ClientsController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/FeedsController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/InvitesController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/NotificationsController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/profile.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainee/profile.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/clients.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/libraries/Messages.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/feedClient.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/addfull/measurements.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/workouts.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/full/workoutMarket.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/search.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/add/sessions.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/sessions.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/workoutSales.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/addExercise.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/trainee.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/settings.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/exercise.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/exercises.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/friends.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/editProfile.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/Sessions.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/SessionsController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/full/calendar.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainer/workouts.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/workoutMarket.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/appointments.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/workoutMarket.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/tasks.blade.php",
+		"/Users/diego/Library/Caches/Cleanup At Startup/Transmit/9C189558-7EF1-4F56-9D5C-F0E47E28595E/index.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/Tasks.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/reminders.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/add/appointments.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/Appointments.php",
+		"/Users/diego/GitHub/TrainerWorkout/fw/datapicker/jquery.ui.timepicker.js",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/trainee/createWorkout.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/full/testimonials.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/TestimonialsController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/Testimonials.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/addfull/testimonials.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/addfull/biography.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/full/biography.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/workoutPrint.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/addfull/addVideoWord.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/full/videoWord.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/Clients.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/Users.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/objectives.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/TrainerSignUp.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/workoutShare.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/workout.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/notifications/notifications.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/WorkoutsExercises.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/UserMessagesController.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/full/dialog.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/UserMessages.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/TemplateSets.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/Workouts.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/Sets.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/addfull/friends.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/addfull/pictures.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/full/composeMail.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/Exercises.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/config/app.php",
+		"/Users/diego/GitHub/TrainerWorkout/composer.json",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/full/mail.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/full/exercises.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/widgets/base/exercises.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/models/Notifications.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/controllers/Friendscontroller.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/notifications/messages.blade.php",
+		"/Users/diego/GitHub/TrainerWorkout/app/views/Trainee/index.blade.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"dd",
+			"Mcrypt",
+			"managerExercises",
+			"equipment",
+			"APIAddEdit",
+			"/jquery.lightbox.min.js",
+			"Control P",
+			"chosen",
+			"refreshWidgets",
+			"upAndClearAdd",
+			"AddFriendName",
+			"permi",
+			"exe",
+			"bodygroup",
+			".socialblocks .thumbnail",
+			"user",
+			"createNewWorkoutTrainer",
+			"refreshWidgets",
+			"(\"\")",
+			"('')",
+			"9999",
+			"'as'=>\"Trainer\"",
+			"as = \"Trainee",
+			"as = \"Trainer",
+			"as =\"Trainer",
+			"profileimg",
+			"header",
+			"Search",
+			"objective",
+			"objectives",
+			"Objectives",
+			"indexFull",
+			"Trainee",
+			"indexFriends",
+			"Friends",
+			"EditProfile",
+			"hideLoadWithElement",
+			"firstName",
+			"indexWorkoutMarket",
+			"showLoadWithElement",
+			"?>\n",
+			"appointment",
+			"Reminders",
+			"Remiders",
+			"appointments",
+			"Tasks",
+			"objective",
+			"objectives",
+			"Objectives",
+			"appointments",
+			"smalldate",
+			"indexSuggestPeopleWithClients",
+			"browser",
+			"objective",
+			"objectives",
+			"Objectives",
+			"dropdownpoint",
+			"objectives",
+			"Objectives",
+			"deleteicon2",
+			"exercisesimages",
+			"indexEditTrainee",
+			"objective",
+			"objectives",
+			"Objectives",
+			"/img/Trainer",
+			"Trainee",
+			"w_feedClient",
+			"Clients",
+			"objective",
+			"Objectives",
+			"TrainerSignUp",
+			"SignUp",
+			"addTomyWo",
+			"exercise",
+			"exercises",
+			"editModeAll",
+			"setsInformation",
+			"alert",
+			"editExercise",
+			"createNewWorkoutAddEdit",
+			".list article",
+			"list",
+			"list-item",
+			".list article",
+			"orderList",
+			",array(\"search\"=>$search)",
+			":search",
+			"\"search\"=>",
+			"searchExercises",
+			"bodygroups",
+			"NotificationsController",
+			"notifications",
+			"NotificationsController",
+			"notifications",
+			"Trainee",
+			"trainee",
+			"notification_preloader",
+			"ObjectivesController",
+			"objectives"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"session",
+			"sessions",
+			"Sessions",
+			"task",
+			"Tasks",
+			"tasks",
+			"Reminders",
+			"task",
+			"tasks",
+			"Tasks",
+			"mediumdate",
+			"appointment",
+			"appointments",
+			"Appointments",
+			"calendar",
+			"Calendar",
+			"testimonial",
+			"testimonials",
+			"Testimonials",
+			"/img/Trainee",
+			"Trainer",
+			"Users",
+			"client",
+			"Clients",
+			"",
+			"?",
+			"",
+			"UserMessagesController",
+			"mail",
+			"UserMessagesController",
+			"messages",
+			"NotificationsController",
+			"notifications"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "macbookpro.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 326.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

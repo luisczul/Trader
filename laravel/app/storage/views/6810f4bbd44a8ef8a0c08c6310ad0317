@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <?php echo HTML::style('fw/jquery-ui-1.11.1.custom/jquery-ui.min.css');; ?>
+
+    <?php echo HTML::style('fw/chosen_v1/chosen.css');; ?>
+
+    <?php echo HTML::style('fw/fancybox/source/jquery.fancybox.css?v=2.1.5');; ?>
+
+    <?php echo HTML::style('fw/lightbox/css/lightbox.css');; ?>
+
+    <!-- jQuery Version 1.11.0 -->
+    <?php echo HTML::script('js/jquery-1.11.0.js');; ?>
+
+    <?php echo HTML::script('fw/jquery-ui-1.11.1.custom/jquery-ui.min.js');; ?>
+
+
+
+
+
+</head>
+
+<?php echo $__env->yieldContent("content"); ?>
+
+
+
+<?php echo $__env->yieldContent("scripts"); ?>
+
+<!-- jQuery -->
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="js/plugins/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/sb-admin-2.js"></script>
+
+     <!-- Bootstrap Core JavaScript -->
+    <?php echo HTML::script('js/bootstrap.min.js');; ?>
+
+    <!-- CHOSEN SELCT BOX -->
+    <?php echo HTML::script('fw/ckeditor/ckeditor.js');; ?>
+
+
+    <?php echo HTML::script('fw/fancybox/source/jquery.fancybox.pack.js?v=2.1.5');; ?>
+
+    <?php echo HTML::script('fw/fullcalendar/fullcalendar.min.js');; ?>
+
+    <?php echo HTML::script('fw/datapicker/jquery.ui.timepicker.js');; ?>
+
+
+    <?php echo HTML::script('fw/lightbox/js/lightbox.js');; ?>
+
+    <?php echo HTML::script('js/widgets.js');; ?>
+
+    <!-- CHOSEN SELCT BOX -->
+    <?php echo HTML::script('fw/chosen_v1/chosen.jquery.js');; ?>
+
+    <?php echo HTML::script('fw/chosen_v1/docsupport/prism.js');; ?>
+
+
+    <?php echo HTML::script('js/global.js');; ?>
+
+    <?php echo HTML::script('js/thirdParty.js');; ?>
+
+    
+
+    
+    <script type="text/javascript">
+        var config = {
+          '.chosen-select'           : {},
+          '.chosen-select-deselect'  : {allow_single_deselect:true},
+          '.chosen-select-no-single' : {disable_search_threshold:10},
+          '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+          '.chosen-select-width'     : {width:"95%"}
+        }
+        for (var selector in config) {
+          $(selector).chosen(config[selector]);
+        }
+    </script>
+
+    <!-- DataTables JavaScript -->
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+
+
+    <?php echo $__env->yieldContent('scripts'); ?>
+
+     <?php if($errors->has()): ?>
+       <?php echo $message = "";; ?>
+
+       <?php foreach($errors->all() as $error): ?>
+        <?php echo $message .= $error."</br>";; ?>
+
+      <?php endforeach; ?>
+      <script>errorMessage("<?php echo $message; ?>")</script>
+    <?php endif; ?>
+
+    <?php if(Session::has("message")): ?>
+      <script>successMessage("<?php echo Session::get("message"); ?>")</script>
+    <?php endif; ?>
+
+     <?php if(isset($message)): ?>
+      <script>successMessage("<?php echo $message; ?>")</script>
+    <?php endif; ?>
+
+    <?php if(Session::has("error")): ?>
+      <script>errorMessage("<?php echo Session::get("error"); ?>")</script>
+    <?php endif; ?>
+
+</body>
+
+</html>
